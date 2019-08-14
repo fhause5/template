@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Template
 metadata:
-  name: "deploy-config"
+  name: "nginx-example"
 objects:
 - apiVersion: v1
   kind: ConfigMap
