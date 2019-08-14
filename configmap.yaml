@@ -11,4 +11,4 @@ objects:
     config: |-
       test1
       test2
-   
+  path: /configs
