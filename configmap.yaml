@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Template
+metadata:
+  name: "deploy-config"
+objects:
+- apiVersion: v1
+  kind: ConfigMap
+  metadata:
+    name: "test"
+  data:
+    config: |-
+      test1
+      test2
+   
